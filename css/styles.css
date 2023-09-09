@@ -22,7 +22,15 @@ header{
     color: #0C5994 ;
 }
 
-
+.section-hero {
+    background-color: yellow;
+}
+.section-hero a {
+    font-size: 50px;
+}
+.section-info > p {
+    color: violet;
+}
 /* h2 {
     color: red;
 } */
