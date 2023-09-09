@@ -1,10 +1,35 @@
+:root {
+    --accent-color:#FED136;
+    --main-color: #777;
+    --add-color: #222;
+    --add-white: #fff;
+}
+
+h2, h3 {
+    color: var(--accent-color);
+}
+
+/* h2, h3 {
+    color: tomato;
+} */
+.nav {
+    color: rgb(100, 0, 150);
+}
+header{
+    background-color: rgba(3, 200, 10, 0.7);
+}
+.list-hero >li{
+    color: #0C5994 ;
+}
+
+
 /* h2 {
     color: red;
 } */
 /* * {
     color: green;
 } */
-a {
+/* a {
     text-decoration: none;
 }
 .list {
@@ -13,11 +38,15 @@ a {
 }
 .list-header {
     color: green;
-}
+} */
+/* Доробити!!! */
+/* .text-hero {
+    font-size: 40px;
+} */
 /* #hero {
     color: gray;
 } */
-a[href*="google"] {
+/* a[href*="google"] {
     color: orange;
 }
 h2, h3, ul {
@@ -34,4 +63,5 @@ nav + a {
 }
 .hero ~ p {
     background-color: gray;
-}
+} */
+
